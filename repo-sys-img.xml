@@ -7,8 +7,8 @@
     <type-details xsi:type="sdk:sysImgDetailsType">
       <api-level>34</api-level>
       <tag>
-        <id>vw_ivi</id>
-        <display>VW IVI</display>
+        <id>audi_ivi</id>
+        <display>Audi IVI</display>
       </tag>
       <abi>x86_64</abi>
     </type-details>
@@ -18,7 +18,39 @@
     </revision>
 
     <!-- Display name shown in SDK Manager -->
-    <display-name>VW IVI System Image (x86_64)</display-name>
+    <display-name>Audi Cl48 (x86_64)</display-name>
+
+    <!-- Optional: top-level license (sys-img2 supports <license>, but it's not required).
+         If you want to keep a license, it goes next to <remotePackage>, and
+         you'd reference it with <uses-license> inside <remotePackage>. -->
+
+    <archives>
+      <archive>
+        <complete>
+          <url>https://jfrog.hub.vwgroup.com/artifactory/ivicicd-builds-ivi-generic-qa/2025-09-03-01-47-main_a14-lts6-eso_HCP3_AU-HCP3__AU_MRM_X__E-userdebug-build-1756863417820/IVI/sdk-repo-linux-system-images-eng.ivi_cicd_gh_runner.zip</url>
+          <size>3088032232</size>
+          <checksum type="sha1">6adfb9869beab7a42edd6314ed5b306d3d46fe45</checksum>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+
+  <remotePackage path="system-images;android-34;vw_ivi;x86_64">
+    <type-details xsi:type="sdk:sysImgDetailsType">
+      <api-level>34</api-level>
+      <tag>
+        <id>porsche_ivi</id>
+        <display>Porsche IVI</display>
+      </tag>
+      <abi>x86_64</abi>
+    </type-details>
+
+    <revision>
+      <major>1</major>
+    </revision>
+
+    <!-- Display name shown in SDK Manager -->
+    <display-name>Porsche CL48 (x86_64)</display-name>
 
     <!-- Optional: top-level license (sys-img2 supports <license>, but it's not required).
          If you want to keep a license, it goes next to <remotePackage>, and
