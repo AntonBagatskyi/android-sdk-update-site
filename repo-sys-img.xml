@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdk-sys-img xmlns="http://schemas.android.com/sdk/android/sys-img/3"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <!-- Optional license (referenced below by uses-license). -->
+  <license id="vw-ivi-license" type="text">
+    VW IVI AVD system image. Internal use only. © Volkswagen Group.
+  </license>
+
+  <system-image>
+    <!-- Reference the top-level license -->
+    <uses-license ref="vw-ivi-license"/>
+
+    <!-- Android API level -->
+    <api-level>34</api-level>
+
+    <!-- ABI of this image -->
+    <abi>x86_64</abi>
+
+    <!-- A custom tag to group and display your images -->
+    <tag>
+      <id>vw_ivi</id>
+      <display>VW IVI</display>
+    </tag>
+
+    <!-- Display name in SDK Manager -->
+    <name>VW IVI System Image (x86_64)</name>
+
+    <!-- Bump revision when you republish -->
+    <revision>
+      <major>1</major>
+    </revision>
+
+    <!-- The downloadable ZIP (host-agnostic) -->
+    <archives>
+      <archive>
+        <complete>
+          <url>https://jfrog.hub.vwgroup.com/artifactory/ivicicd-builds-ivi-generic-qa/2025-09-03-01-47-main_a14-lts6-eso_HCP3_AU-HCP3__AU_MRM_X__E-userdebug-build-1756863417820/IVI/sdk-repo-linux-system-images-eng.ivi_cicd_gh_runner.zip</url>
+          <size>3088032232</size>
+          <checksum type="sha1">6adfb9869beab7a42edd6314ed5b306d3d46fe45</checksum>
+          <!-- Optional but supported:
+          <checksum type="sha256">...</checksum>
+          -->
+        </complete>
+      </archive>
+    </archives>
+  </system-image>
+</sdk-sys-img>
