@@ -59,9 +59,10 @@
     <archives>
       <archive>
         <complete>
-          <url>https://jfrog.hub.vwgroup.com/artifactory/ivicicd-builds-ivi-generic-qa/2025-09-03-01-47-main_a14-lts6-eso_HCP3_AU-HCP3__AU_MRM_X__E-userdebug-build-1756863417820/IVI/sdk-repo-linux-system-images-eng.ivi_cicd_gh_runner.zip</url>
-          <size>3088032232</size>
-          <checksum type="sha1">6adfb9869beab7a42edd6314ed5b306d3d46fe45</checksum>
+          <url>https://jfrog.hub.vwgroup.com/artifactory/ivicicd-builds-ivi-generic-qa/2025-09-08-01-54-main_a14-lts6-eso_HCP3_PO-HCP3__PO_MRM_X__E-userdebug-build-1757295741636/IVI/sdk-repo-linux-system-images-eng.ivi_cicd_gh_runner.zip</url>
+          https://jfrog.hub.vwgroup.com/ui/native/
+          <size>3542381064</size>
+          <checksum type="sha1">0e33a9a4c5f34441e81cb185726a5485e70b7db6</checksum>
         </complete>
       </archive>
     </archives>
