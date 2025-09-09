@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:sdk="http://schemas.android.com/sdk/android/repo/sys-img2/01">
 
-  <remotePackage path="system-images;android-34;vw_ivi;x86_64">
+  <remotePackage path="system-images;android-34;audi_ivi;x86_64">
     <type-details xsi:type="sdk:sysImgDetailsType">
       <api-level>34</api-level>
       <tag>
@@ -35,7 +35,7 @@
     </archives>
   </remotePackage>
 
-  <remotePackage path="system-images;android-34;vw_ivi;x86_64">
+  <remotePackage path="system-images;android-34;porsche_ivi;x86_64">
     <type-details xsi:type="sdk:sysImgDetailsType">
       <api-level>34</api-level>
       <tag>
