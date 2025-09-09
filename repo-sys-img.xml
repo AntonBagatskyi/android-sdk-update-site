@@ -12,7 +12,7 @@
     <uses-license ref="vw-ivi-license"/>
 
     <!-- Android API level -->
-    <api-level>35</api-level>
+    <api-level>34</api-level>
 
     <!-- ABI of this image -->
     <abi>x86_64</abi>
